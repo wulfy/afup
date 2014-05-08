@@ -1,0 +1,26 @@
+body {
+    padding-top: 50px;
+    font-size: 12px;
+    background-color: #272B30;
+}
+
+.agenda {
+	padding-top: 10px;
+}
+
+#calendar {
+	background-color: white;
+}
+
+.session {
+	padding-top: 10px;
+}
+
+.profile {
+    min-height: 250px;
+    display: inline-block;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}

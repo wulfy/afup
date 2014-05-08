@@ -1,0 +1,74 @@
+[
+	{
+		"title":"Coding and Dreaming - PHP in 2014",
+		"dateSlot":"23/06/2014",
+		"timeSlot":"09:30 - 10:15",
+		"speaker1":"Rasmus Lerdorf",
+		"speaker1Id":"853",
+		"speaker2":"",
+		"speaker2Id":"",
+		"dtls":"Significant performance improvements, generators, finally statement, the bundled opcache, variadics, constant scalar expressions and many other new and cool things are available in PHP 5.5 and in the upcoming 5.6 release. All fun new toys. But, as an industry, are we just playing with our toys, or are we doing something worthwhile?",
+		"language":"EN",
+		"space":"Amphi C"
+	},
+	{
+		"title":"Extract Till You Drop",
+		"dateSlot":"23/06/2014",
+		"timeSlot":"10:30 - 11:15",
+		"speaker1":"Mathias Verraes",
+		"speaker1Id":"862",
+		"speaker2":"",
+		"speaker2Id":"",
+		"dtls":"Under the pressure of deadlines and endless change requests, under the weight of years of legacy, code becomes unmaintainable. With the right tools, techniques, and mindset, any codebase can be brought under test, and be refactored towards a better architecture. Let’s skip the theory and dive straight into the spaghetti code. In a live coding session, I will demonstrate how you can start refactoring your way out of a mess today.",
+		"language":"EN",
+		"space":"Amphi C"
+	},
+	{
+		"title":"P.D.D. Pragmatism Driven Development",
+		"dateSlot":"23/06/2014",
+		"timeSlot":"10:30 - 11:15",
+		"speaker1":"Gabriel Pillet",
+		"speaker1Id":"785",
+		"speaker2":"",
+		"speaker2Id":"",
+		"dtls":"Vous n'arrivez pas à respecter vos deadlines ? Votre client vous fait la gueule ? Vous vous dites que les tests ça a l'air cool, mais qu'on n'a jamais le temps d'en faire ? Ou au contraire vous n'êtes satisfait qu'une fois que votre projet est couvert à 99% par les tests unitaires ? Cette conférence est probablement faite pour vous (en tout cas c'est à vous que je pensais).",
+		"language":"FR",
+		"space":"Salle 2"
+	},
+	{
+		"title":"Je ne suis pas qu’un objet !",
+		"dateSlot":"23/06/2014",
+		"timeSlot":"10:30 - 11:15",
+		"speaker1":"Gérald Croes",
+		"speaker1Id":"864",
+		"speaker2":"",
+		"speaker2Id":"",
+		"dtls":"La programmation objet est aujourd’hui largement répandue en PHP, mais en réalité, qu’est-ce que la programmation objet ? Est-ce le simple fait d’utiliser le mot « class » ? Est-ce le fait d’utiliser quelques patterns récupérés ici et là ? Est-ce le fait d’utiliser un framework ? Où réside la réelle force de ce paradigme ? Cette présentation a pour objectif de faire le tour de l’essence de la POO. Nous passerons en revue les éléments utilisés par les développeurs expérimentés : les interfaces, les patterns, les tests, Domain Driven Design, les secrets du nommage, la gestion des erreurs, l’injection de dépendance, et bien d’autres, y compris quelques incursions dans des domaines transverses nécessaires à l'activité de développement.",
+		"language":"FR",
+		"space":"Salle 3"
+	},
+	{
+		"title":"YooopeeCache",
+		"dateSlot":"24/06/2014",
+		"timeSlot":"14:30 - 15:15",
+		"speaker1":"Julien PAULI",
+		"speaker1Id":"824",
+		"speaker2":"",
+		"speaker2Id":"",
+		"dtls":"OPCache est le cache d'OPCode par défaut depuis PHP5.5. Nous allons ici voir à quoi il sert, comment l'installer et le configurer. Aussi, nous tenterons d'expliquer comment il fonctionne en interne, comment il optimise le code de PHP et améliore grandement les performances de vos applications. Un parallèle avec le très connu APC sera dressé, ainsi qu'un guide de migration.",
+		"language":"FR",
+		"space":"Amphi C"
+	},
+	{
+		"title":"Arrêtons de parler de code de qualité, ce qu'il faut c'est du code agile !",
+		"dateSlot":"24/06/2014",
+		"timeSlot":"11:30 - 12:15",
+		"speaker1":"Marek Kalnik",
+		"speaker1Id":"896",
+		"speaker2":"",
+		"speaker2Id":"",
+		"dtls":"Un code de qualité, ça veut dire quoi exactement ? Est-ce que c'est la qualité que nous cherchons ? Quelle est la valeur ajoutée de la qualité ? Je vais vous présenter ce qu'est du code agile et pourquoi c'est mieux que du \"bon\" code.",
+		"language":"FR",
+		"space":"Amphi C"
+	}
+]

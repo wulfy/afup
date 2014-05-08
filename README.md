@@ -11,3 +11,19 @@ Créer une page permettant de sélectionner et imprimer les conférences auxquel
 - pouvoir enregistrer son planning et l'afficher par la suite
 - donc gestion login/mdp perdu
 - partage de son planning sur réseaux sociaux
+
+
+## Installing
+### Bower
+
+> sudo apt-get update
+> sudo apt-get install python-software-properties python g++ make
+> sudo add-apt-repository ppa:chris-lea/node.js
+> sudo apt-get update
+> sudo apt-get install nodejs
+
+> sudo npm install -g bower
+
+### Vendors
+> bower install
+
