@@ -31,3 +31,12 @@ Créer une page permettant de sélectionner et imprimer les conférences auxquel
 ### Vendors
 > bower install
 
+
+Reste a faire
+- Double Speaker
+- Planning Conflit
+- Reponsive
+- Print
+- Stick Calendar
+
+

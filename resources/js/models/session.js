@@ -7,6 +7,7 @@ var Session = Backbone.Model.extend({
     },
  
     defaults: {
+        id: '',
         title: '',
         dateSlot: '',
         timeSlot: '',
