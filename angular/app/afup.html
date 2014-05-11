@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Google Phone Gallery</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="lib/angular/moment.min.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="js/mytests.js"></script>
+  <script src="js/controllers.js"></script>
+ 
+</head>
+<body ng-controller="ForumConfCtrl" style="background-color:{{bgColor}}">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span2">
+        <!--Sidebar content-->
+
+        Search: <input ng-model="query">
+		
+		<!--<ul class="confs">
+          <li ng-repeat="(filter_name,conference_attribute_name) in filters">
+            {{filter_name}}:
+				<select ng-model="search" ng-change="changed(this['search_'+filter_name],'search_'+filter_name)">
+				  <option ng-repeat="data in scope[filter_name]">{{data}}</option>
+				  <option value="">tous</option>
+				</select>
+          </li>
+        </ul>-->
+		
+        Salles:
+        <select ng-model="search_salle" ng-change="changed(this.search_salle,'search_salle')">
+          <option ng-repeat="salle in salles">{{salle}}</option>
+          <option value="">toutes</option>
+        </select>
+		Langue:
+        <select ng-model="search_lang" ng-change="changed(this.search_lang,'search_lang')">
+          <option ng-repeat="lang in languages">{{lang}}</option>
+          <option value="">toutes</option>
+        </select>
+		
+      </div>
+	  
+	  <input ng-model="color" ng-keyup="changeBackground(color)" ><div  ng-click="changeBackground(color)"> apply </div>
+	  <img id="monID" ng-click="affiche($event)" src="http://t3.gstatic.com/images?q=tbn:ANd9GcRvFBcxJRJtI0_XEd5rvOTMIWnB8aInp3f33GYrxJK-iZcY5QwJhgZFX1Kd" >
+      <div class="span10">
+        <!--Body content-->
+
+        <ul class="confs">
+          <li ng-repeat="conf in confs | filter:{name:query, salle:search_salle, lang:search_lang} | orderBy:conf.date_start">
+            {{conf.name}}
+            <p>salle : {{conf.salle}}</p> {{getDate(conf.date) | date : "dd/MM/yyyy"}} , duree : {{getDuree(conf.date_end,conf.date_start)}}
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div ng-controller="MyController">
+	<a href="" ng-click="aboyer()">aboyer</a>
+	<button ng-click="sayHello()">Hello</button>
+  </div>
+
+</body>
+</html>
