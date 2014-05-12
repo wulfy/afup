@@ -41,10 +41,6 @@ planningEvent.on("loadDone", function() {
 
     // Impression de évènements
     $('.print').on('click', function(){
-      // Pour chaques évènements
-      // _.each(calendar.fullCalendar('clientEvents'), function(oneEvent){
-      //   console.log(oneEvent);
-      // });
       window.print();
     });
 });
