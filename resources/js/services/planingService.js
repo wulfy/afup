@@ -9,6 +9,7 @@ function PlaningService() {
     	var eventDateEnd = moment(session.get('dateSlot') + ' ' + time[1], this.dateTimeFormat);
     	
     	newEvent.id = session.get('id');
+    	newEvent.className = session.get('class');
 		newEvent.title = session.get('title');
 		newEvent.start = eventDateStart.toDate();
 		newEvent.end = eventDateEnd.toDate();

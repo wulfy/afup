@@ -30,19 +30,29 @@ planningEvent.on("loadDone", function() {
   		var idSession = btn.attr('session');
   		var color = '#26FF00';
   		if (btn.hasClass('btn-primary')) {
-  			planningEvent.trigger("updateColorEvent", idSession, color);	
+  			planningEvent.trigger("updateColorEvent", idSession, color, 'eventToprint');	
   			planningEvent.trigger("updateButton", btn, 'remove');	
   		} else {
   			planningEvent.trigger("updateButton", btn, 'add');
-  			planningEvent.trigger("updateColorEvent", idSession);	
+  			planningEvent.trigger("updateColorEvent", idSession, '');	
   		}
   		
   	});
+
+    // Impression de évènements
+    $('.print').on('click', function(){
+      // Pour chaques évènements
+      // _.each(calendar.fullCalendar('clientEvents'), function(oneEvent){
+      //   console.log(oneEvent);
+      // });
+      window.print();
+    });
 });
 
-planningEvent.on("updateColorEvent", function(idSession, color = '') {
+planningEvent.on("updateColorEvent", function(idSession, color = '', className = 'defaultEvent') {
 	var sessionEvent = calendar.fullCalendar( 'clientEvents', idSession)[0];
 	sessionEvent.backgroundColor = color;
+  sessionEvent.className = className;
 	calendar.fullCalendar('updateEvent', sessionEvent);
 });
 

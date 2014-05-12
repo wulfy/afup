@@ -1,6 +1,7 @@
 [
 	{
 		"title":"Coding and Dreaming - PHP in 2014",
+		"class" : "defaultEvent",
 		"dateSlot":"23/06/2014",
 		"timeSlot":"09:30 - 10:15",
 		"speaker1":"Rasmus Lerdorf",
@@ -13,6 +14,7 @@
 	},
 	{
 		"title":"Extract Till You Drop",
+		"class" : "defaultEvent",
 		"dateSlot":"23/06/2014",
 		"timeSlot":"10:30 - 11:15",
 		"speaker1":"Mathias Verraes",
@@ -25,6 +27,7 @@
 	},
 	{
 		"title":"P.D.D. Pragmatism Driven Development",
+		"class" : "defaultEvent",
 		"dateSlot":"23/06/2014",
 		"timeSlot":"10:30 - 11:15",
 		"speaker1":"Gabriel Pillet",
@@ -37,6 +40,7 @@
 	},
 	{
 		"title":"Je ne suis pas qu’un objet !",
+		"class" : "defaultEvent",
 		"dateSlot":"23/06/2014",
 		"timeSlot":"10:30 - 11:15",
 		"speaker1":"Gérald Croes",
@@ -49,6 +53,7 @@
 	},
 	{
 		"title":"YooopeeCache",
+		"class" : "defaultEvent",
 		"dateSlot":"24/06/2014",
 		"timeSlot":"14:30 - 15:15",
 		"speaker1":"Julien PAULI",
@@ -61,6 +66,7 @@
 	},
 	{
 		"title":"Arrêtons de parler de code de qualité, ce qu'il faut c'est du code agile !",
+		"class" : "defaultEvent",
 		"dateSlot":"24/06/2014",
 		"timeSlot":"11:30 - 12:15",
 		"speaker1":"Marek Kalnik",
